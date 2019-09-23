@@ -1,0 +1,31 @@
+Developer: Abby Autin
+Assignment: lab #3
+Title: Zombie Apocalypse Game
+
+
+
+
+Version 1
+Draw Game Scene
+
+
+		// REPEAT: this set of loops is responsible for visually representing the space where the game will take place.....
+
+
+		// STEP 1 >>> @ exterior loop
+		// condition 			as long as i is less than 10...
+		
+
+
+		// STEP 2 >>> @ interior loop
+		// condition 			as long as j is less than 10...
+		// display	 			"." character to represent 1 default tile of our grid
+		// evaluate 			once j is equal to 10, the inside loop terminates
+		// RESULT				one row of 10 "." characters	
+
+	
+
+		// STEP 3 >>> @ exterior loop
+		// display: 			jump to next line on the screen
+		// evaluate: 			once i is equal to 10, the outside loop terminates
+		// RESULT: 				(10) rows of 10 "." characters
