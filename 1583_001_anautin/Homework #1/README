@@ -1,0 +1,81 @@
+INSTRUCTIONS
+
+Developer: Abby N Autin
+
+program: HelloWorld.java 
+
+
+>> JUST A RECAP: 
+
+	At the beginning of the semester, you "cloned" your repository (project) on gitlab. This "cloned copy" is on your local machine under the main file titled "1583_001_anautin"
+
+	To locate this main file, from Finder menu bar, click "Go" then click on "Home"
+
+
+
+
+
+
+>> After you've written your code:
+
+1. Make sure your source-code file is saved in the "local" CSCI 1583_001 repository; select corresponding folder to ensure separation between assignments
+
+2. Write down the exact name of the CSCI 1583 repository main file. You will need to include this in your terminal commands.
+
+
+
+
+
+
+
+
+>> Compile & execute your program:
+
+Enter the following commands from the terminal window:
+
+1. cd 1583_001_anautin
+
+
+
+2. javac HelloWorld.java
+
+	// you're telling Java to compile the HelloWorld.java file
+	// it will compile-- but won't display any indication
+	// side note: anytime you compile a program, an additional file will automatically 	be created. It will be stored in the same folder as your source code file. It will 	have the same name as your source code file, with .class as the extension
+
+3. java HelloWorld
+
+	// you're using Java to actually run the HelloWorld program
+	// on the following line, you will see the output of your program, in this case, "Hello World"
+
+
+
+
+
+
+>> Create a Commit & Push it Upstream
+
+Enter the following commands from the terminal window: 
+
+1. cd 1583_001_anautin
+
+	// cd = change directory; this instructs the computer to go into a specific folder/directory
+
+
+2. git add HelloWorld.java
+	
+	// you're picking up that specific file within that folder/directory
+
+
+3. git commit -m "Jan 26 18 commit"
+	
+	// the git commit is a "save as" that will be sent upstream later in the process
+	// the -m means that whatever comes next in quotation marks is to be the name of your commit, or the message you are sending along with this commit
+
+
+4. git push
+
+	// this is the actual command that "pushes" that save as file (commit) upstream to your repository on gitlab. Tis now saved in the cloud. 
+
+
+
